@@ -37,7 +37,7 @@ namespace HelloWorld
         }
 
 		private void name_Click(object sender, RoutedEventArgs e)
-		{
+        {
             view.SortDescriptions.Clear();
             view.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
         }
@@ -47,5 +47,5 @@ namespace HelloWorld
             view.SortDescriptions.Clear();
             view.SortDescriptions.Add(new SortDescription("Password", ListSortDirection.Ascending));
         }
-	}
+    }
 }
