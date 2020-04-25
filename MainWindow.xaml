@@ -1,0 +1,27 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWorld"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="MainWindow" Height="350" Width="525">
+
+    <StackPanel>
+
+        <TextBlock>Enter Name:</TextBlock>
+        <TextBox x:Name="uxName" ></TextBox>
+        <TextBlock>Enter Password:</TextBlock>
+        <TextBox x:Name="uxPassword" ></TextBox>
+        <Button x:Name="uxSubmit" Click="uxSubmit_Click">Submit</Button>
+
+        <Button>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="C:\Users\Matthew\Documents\repos\csharp-client_hw1\csharp-client_hw1\HelloWorld\images\thumb.png"/>
+                <TextBlock Text="Thumbs Up"  VerticalAlignment="Center" Padding="10"/>
+            </StackPanel>
+        </Button>
+
+    </StackPanel>
+</Window>
